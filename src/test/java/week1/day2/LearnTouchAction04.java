@@ -77,9 +77,6 @@ public class LearnTouchAction04 {
 		dragNdrop2.addAction(finger2.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
 
 		
-		
-		
-		
 		driver.perform(Arrays.asList(dragNdrop1, dragNdrop2));
 
 
