@@ -19,6 +19,7 @@ public class TC006_LearnWifiOnorWifiOff {
 		dc.setCapability("appActivity", "net.oneplus.launcher.Launcher");
 		dc.setCapability("deviceName", "Gopi Phone");
 		dc.setCapability("platformName", "Android");
+		dc.setCapability("noRest", true);
 
 		URL url = new URL("http://0.0.0.0:4723/wd/hub");
 		AndroidDriver<WebElement> driver =  new AndroidDriver<WebElement>(url, dc);
